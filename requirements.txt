@@ -1,6 +1,7 @@
+pymysql
+sqlalchemy
+python-dotenv
 pandas
 numpy
-python-dotenv
-sqlalchemy
 tensorflow
 scikit-learn
