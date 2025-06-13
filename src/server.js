@@ -8,7 +8,8 @@ const init = async () => {
     host: '0.0.0.0',
     routes: {
       cors: {
-        origin: ['*'],
+        origin: ['https://wondrous-cannoli-29aa5d.netlify.app'],
+        credentials: true,
       },
     },
   });
