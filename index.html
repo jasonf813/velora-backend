@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Velora API Tester</title>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="google-signin-client_id" content="914053752476-5ke4eror7n593mbtbqr8qfnqusllb4ss.apps.googleusercontent.com">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <div class="max-w-4xl mx-auto p-6">
+    <h1 class="text-3xl font-bold mb-6">🥗 Velora API Tester</h1>
+
+    <!-- Google Login -->
+    <div class="bg-white p-4 rounded shadow mb-6">
+      <h2 class="text-xl font-semibold mb-2">🔐 Login dengan Google</h2>
+      <div id="g_id_onload"
+        data-client_id="914053752476-5ke4eror7n593mbtbqr8qfnqusllb4ss.apps.googleusercontent.com"
+        data-context="signin"
+        data-callback="handleGoogleLogin"
+        data-auto_prompt="false">
+      </div>
+      <div class="g_id_signin"
+        data-type="standard"
+        data-size="large"
+        data-theme="outline"
+        data-text="sign_in_with"
+        data-shape="pill"
+        data-logo_alignment="left">
+      </div>
+    </div>
+
+    <!-- Form Container -->
+    <div id="forms" class="space-y-6"></div>
+  </div>
+
+  <script>
+    const BASE_URL = "http://34.27.18.60:3000";
+
+    function parseJwt(token) {
+      const base64 = token.split('.')[1].replace(/-/g, '+').replace(/_/g, '/');
+      return JSON.parse(atob(base64));
+    }
+
+    function handleGoogleLogin(response) {
+      const token = response.credential;
+      const payload = parseJwt(token);
+      const user = {
+        google_id: payload.sub,
+        name: payload.name,
+        email: payload.email,
+        picture_url: payload.picture
+      };
+      fetch(BASE_URL + "/auth/google", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(user)
+      })
+      .then(res => res.json())
+      .then(data => {
+        const loginBox = document.querySelector(".g_id_signin").parentElement;
+        loginBox.insertAdjacentHTML("beforeend", `<pre class="mt-4 bg-gray-100 p-2 rounded text-sm overflow-auto">${JSON.stringify(data, null, 2)}</pre>`);
+      });
+    }
+
+    async function request(url, method = "GET", body = null) {
+      const res = await fetch(BASE_URL + url, {
+        method,
+        headers: { "Content-Type": "application/json" },
+        body: body ? JSON.stringify(body) : null
+      });
+      return res.json();
+    }
+
+    function createInput(id, placeholder, type = "text") {
+      return `<input type="${type}" id="${id}" placeholder="${placeholder}" class="w-full border px-3 py-2 rounded mb-2" required />`;
+    }
+
+    function createForm(id, title, fields, submitLabel) {
+      return `
+        <form id="${id}" class="bg-white p-4 rounded shadow relative">
+          <h2 class="text-lg font-semibold mb-2">${title}</h2>
+          ${fields.map(f => createInput(f.id, f.placeholder, f.type)).join("")}
+          <button class="bg-green-600 text-white px-4 py-2 rounded" type="submit">${submitLabel}</button>
+          <pre class="output mt-4 bg-gray-100 p-2 rounded text-sm overflow-auto hidden"></pre>
+        </form>`;
+    }
+
+    const formsHTML = [
+      createForm("profileForm", "👤 Simpan Profil", [
+        { id: "user_id", placeholder: "User ID", type: "number" },
+        { id: "age", placeholder: "Umur", type: "number" },
+        { id: "gender", placeholder: "Jenis Kelamin" },
+        { id: "height_cm", placeholder: "Tinggi (cm)", type: "number" },
+        { id: "weight_kg", placeholder: "Berat (kg)", type: "number" },
+        { id: "target_weight_kg", placeholder: "Target Berat (kg)", type: "number" },
+        { id: "activity_level", placeholder: "Aktivitas Harian" },
+        { id: "exercise_routine", placeholder: "Rutin Olahraga" },
+        { id: "late_night_snack", placeholder: "Ngemil Malam" },
+        { id: "sleep_hours", placeholder: "Jam Tidur", type: "number" },
+        { id: "motivation", placeholder: "Motivasi" }
+      ], "Simpan Profil"),
+
+      createForm("getProfileForm", "📋 Lihat Profil", [
+        { id: "user_id", placeholder: "User ID", type: "number" }
+      ], "Lihat Profil"),
+
+      createForm("getCaloriesForm", "🔥 Dapatkan Target Kalori", [
+        { id: "user_id", placeholder: "User ID", type: "number" }
+      ], "Dapatkan Kalori"),
+
+      createForm("getFoodForm", "🍱 Rekomendasi Makanan", [
+        { id: "user_id", placeholder: "User ID", type: "number" }
+      ], "Dapatkan Menu"),
+
+      createForm("getExerciseForm", "🏃 Rekomendasi Olahraga", [
+        { id: "user_id", placeholder: "User ID", type: "number" }
+      ], "Dapatkan Olahraga"),
+
+      createForm("foodHistoryForm", "📝 Simpan Konsumsi Makanan", [
+        { id: "user_id", placeholder: "User ID", type: "number" },
+        { id: "meal_type", placeholder: "Waktu Makan (sarapan/makan siang/makan malam)" },
+        { id: "food_name", placeholder: "Menu yang dimakan" },
+        { id: "calories", placeholder: "Kalori", type: "number" }
+      ], "Simpan Konsumsi"),
+
+      createForm("getHistoryForm", "📅 Lihat Konsumsi Harian", [
+        { id: "user_id", placeholder: "User ID", type: "number" }
+      ], "Lihat Konsumsi"),
+
+      createForm("subscribeForm", "📲 Subscribe Push Notification", [
+        { id: "user_id", placeholder: "User ID", type: "number" },
+        { id: "endpoint", placeholder: "Endpoint" },
+        { id: "p256dh", placeholder: "p256dh" },
+        { id: "auth", placeholder: "auth" }
+      ], "Subscribe"),
+
+      createForm("unsubscribeForm", "🚫 Unsubscribe Push Notification", [
+        { id: "user_id", placeholder: "User ID", type: "number" }
+      ], "Unsubscribe"),
+
+      createForm("deleteForm", "🗑️ Hapus Profil", [
+        { id: "user_id", placeholder: "User ID", type: "number" }
+      ], "Hapus Profil")
+    ];
+
+    document.getElementById("forms").innerHTML = formsHTML.join("");
+
+    function show(form, data) {
+      const pre = form.querySelector(".output");
+      pre.textContent = JSON.stringify(data, null, 2);
+      pre.classList.remove("hidden");
+    }
+
+    document.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const form = e.target;
+      const data = {};
+      [...form.elements].forEach(el => {
+        if (el.id) data[el.id] = el.type === "number" ? +el.value : el.value;
+      });
+
+      let url = "", method = "POST";
+      switch (form.id) {
+        case "profileForm": url = "/user-profile"; break;
+        case "getProfileForm": url = `/user-profile/${data.user_id}`; method = "GET"; break;
+        case "getCaloriesForm": url = `/recommendation/${data.user_id}/calories`; method = "GET"; break;
+        case "getFoodForm": url = `/recommendation/${data.user_id}`; method = "GET"; break;
+        case "getExerciseForm": url = `/recommendation/${data.user_id}/workout`; method = "GET"; break;
+        case "foodHistoryForm": url = "/meals"; break;
+        case "getHistoryForm": url = `/meals/${data.user_id}/today`; method = "GET"; break;
+        case "subscribeForm": url = "/subscribe"; break;
+        case "unsubscribeForm": url = "/unsubscribe"; break;
+        case "deleteForm": url = `/user-profile/${data.user_id}`; method = "DELETE"; break;
+      }
+
+      const result = await request(url, method, method === "GET" ? null : data);
+      show(form, result);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "velora",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hapi/hapi": "^21.4.0",
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "dotenv": "^16.5.0",
+    "luxon": "^3.6.1",
+    "mysql2": "^3.14.1",
+    "node-cron": "^4.1.0",
+    "web-push": "^3.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

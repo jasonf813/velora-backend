@@ -1,0 +1,784 @@
+id_makanan,calories,proteins,fat,carbohydrate,name,label
+1,280,9.2,28.4,0,Abon,"breakfast, lunch, dinner"
+2,513,23.7,37,21.3,Abon Ikan Gabus,"breakfast, lunch, dinner"
+3,0,0,0.2,0,Agar-Agar,snack
+4,85,0.9,6.5,7.7,Buah Alpukat ,"snack, breakfast"
+5,184,18.8,14,0,Daging Sapi Muda (Dengan Lemak),"breakfast, lunch, dinner"
+6,174,19.6,10,0,Daging Sapi Muda (Tanpa Lemak),"breakfast, lunch, dinner"
+7,190,19.1,12,0,Daging Sapi Muda,"breakfast, lunch, dinner"
+8,30,0.5,0.2,6.8,Anggur Hijau,snack
+9,354,16.4,31.5,0,Daging Angsa,"lunch, dinner"
+10,126,3.4,7.9,10.3,Anyang Sayur,"breakfast, lunch"
+11,58,0.3,0.4,14.9,Apel,"breakfast, snack"
+12,57,0.5,0.4,12.8,Apel Malang,"breakfast, snack"
+13,37,0.8,0.5,8.3,Buah Mulberries,snack
+14,113,0.9,7.2,11.2,Nasi Sayur Ares,"breakfast, lunch, dinner"
+15,302,18.2,25,0,Ayam,"breakfast, lunch, dinner"
+16,297,35.9,15.2,1.6,Sayap Ayam Goreng Kentucky,"breakfast, lunch, dinner"
+17,270,32.3,11.2,9.9,Ampela Ayam Goreng,breakfast
+18,295,34,16,1.5,Sayap Ayam Goreng Tepung,"breakfast, lunch, dinner"
+19,338,35.2,20.6,0.4,Dada Ayam Goreng Tepung,"breakfast, lunch, dinner"
+20,275,37.4,12.2,1.3,Paha Ayam Goreng Kalasan,"breakfast, lunch, dinner"
+21,298,34.2,16.8,0.1,Ayam Goreng Kentucky Dada,"breakfast, lunch, dinner"
+22,286,32.1,16.1,1.1,Ayam Goreng Kentucky Paha,"breakfast, lunch, dinner"
+23,295,39.2,13.6,1,Dada Ayam Goreng Kremes,"breakfast, lunch, dinner"
+24,287,31,15.7,1.7,Paha Ayam Goreng,"breakfast, lunch, dinner"
+25,246,37.9,9,0.7,Dada Ayam Goreng Pasundan,"breakfast, lunch, dinner"
+26,245,33.1,11.4,0.3,Paha Ayam Goreng Pasundan,"breakfast, lunch, dinner"
+27,295,37.4,14.7,0.6,Dada Ayam Goreng Tepung (Ala Pioneer),"breakfast, lunch, dinner"
+28,244,36.7,9.2,1,Dada Ayam Goreng Sukabumi,"breakfast, lunch, dinner"
+29,283,35.7,14.3,0.5,Paha Ayam Goreng Sukabumi,"breakfast, lunch, dinner"
+30,261,27.4,16.1,1.6,Hati Ayam Goreng,"lunch, dinner"
+31,264,18.2,20.1,2.7,Ayam Taliwang,"breakfast, lunch, dinner"
+32,473,45.2,26.3,13.9,Usus Ayam,"breakfast, lunch, dinner"
+33,453,11.9,45,0,Daging Babi (Berlemak),"breakfast, lunch, dinner"
+34,371,14.1,35,0,Daging Babi (Tanpa Lemak),"breakfast, lunch, dinner"
+35,110,16.3,4.6,0.8,Ginjal Babi,"breakfast, lunch, dinner"
+36,129,19.7,4.8,1.7,Hati Babi ,"breakfast, lunch, dinner"
+37,491,24.6,16.3,0.2,Rica-Rica Babi ,"breakfast, lunch, dinner"
+38,102.9,3.3,2.7,16.3,Bacang,breakfast
+39,450,3.2,13.9,78.1,Kue Bagea Kelapa Asin,snack
+40,452,1.3,13.8,80.6,Kue Bagea Kelapa Manis,snack
+41,129,1.9,6.6,15.6, Wajik (Ketan Gula Merah),snack
+42,272,8.7,6.7,44.1,Kue Bakpia,"snack, breakfast"
+43,76,4.1,2.5,9.2,Bakso,"lunch, dinner"
+44,280,8.2,10.2,39,Bakwan Goreng,snack
+45,190,3.3,0.3,43.5,Kue Bantal / Odading,"breakfast, snack"
+46,159,3.1,5.8,23.5,Barongko / Burongko,snack
+47,107,2.2,2.2,19.6,Jagung Rebus,"breakfast, snack"
+48,110,1.4,1.1,23.4,Ubi Bakar,"breakfast, snack"
+49,92,1.2,0.3,21,Ubi Kukus,"breakfast, snack"
+50,182,2.4,0.4,42.2,Ubi Rebus,"breakfast, snack"
+51,102,3.7,6.7,6.9,Tumis Bayam Oncom,"breakfast, lunch, dinner"
+52,48,1.4,4.2,2.6,Tumis Bayam Santan,"breakfast, lunch, dinner"
+53,326,16,28.6,0,Daging Bebek / Itik,"lunch, dinner"
+54,303,11.3,27,3.7,Daging Bebek Alabio ,"lunch, dinner"
+55,300,24,20.7,4.5,Daging Bebek Goreng,"lunch, dinner"
+56,258,10.6,9.5,32.5,Burger Daging Sapi,"lunch, dinner"
+57,151,8.6,3.1,22.3,Beef Teriyaki,"lunch, dinner"
+58,132,9.8,1.1,20.7,Beef Yakiniku,"lunch, dinner"
+59,131,20.2,4.3,2.8,Daging Burung Belibis,"lunch, dinner"
+60,36,0.4,0.4,8.8,Buah Belimbing,snack
+61,417,25.9,19.4,32,Belut Goreng,"lunch, dinner"
+62,55,1.4,0.2,12.8,Bengkuang,snack
+63,360,4.7,0.1,82.1,Bihun,"lunch, dinner"
+64,154,3,4.5,25.5,Bihun Goreng,breakfast
+65,381,6.1,3.9,80.3,Bihun Instan,"lunch, dinner"
+66,354,0.5,0.3,87.4,Bihun Jagung,"lunch, dinner"
+67,562,21.2,49.6,23.6,Biji Jambu Mete,snack
+68,629,21.5,56.6,19.8,Biji Jambu Mete Goreng,snack
+69,199,2.1,1.5,44.4,Bika Ambon,snack
+70,458,6.9,14.4,75.1,Kue / Biskuit,snack
+71,249,3.4,0.4,58,Kue Brem,snack
+72,110,1.4,2.1,21.4,Buah Kelenting,snack
+73,264,4,1.1,59.6,Buah Leci Kom,snack
+74,39,0.7,0.2,9.7,Buah Mentega (Bisbul),snack
+75,71,1.7,3.1,9.1,Buah Naga Merah,"snack, breakfast"
+76,56,0.8,1,10.9,Buah Naga Putih,"snack, breakfast"
+77,55,1.2,0.1,12.2,Buah Markisa,snack
+78,60,1,60,13,Bubur ,breakfast
+79,167,0.2,4,33,Bubur Sagu,breakfast
+80,156,2.3,0.2,15.6,Bubur Tinotuan (Manado),breakfast
+81,72,11.4,4.9,1.4,Daging Bulgogi,"breakfast, lunch, dinner"
+82,60,5.1,0.5,8.5,Buncis Asam,"breakfast, lunch, dinner"
+83,30,2.2,0.2,6.4,Buncis Rebus,"breakfast, lunch, dinner"
+84,45,2.6,0.3,8.1,Tumis Bunga Pepaya,breakfast
+85,281,37.5,0.3,32.1,Sarang Burung Walet,"breakfast, snack"
+86,20,1.7,0.4,3.4,Sayur Caisin,"breakfast, lunch, dinner"
+87,155,20.1,3.8,10.2,Ikan Cakalang,"breakfast, lunch, dinner"
+88,323,4.9,11.5,50.1,Cake Tape,snack
+89,102,3.2,6,8.7,Cammetutu,"lunch, dinner"
+90,97,5.8,6.3,4.2,Cap Cai Sayur,"breakfast, lunch, dinner"
+91,24,1.9,0.2,3.7,Carica Papaya,snack
+92,460,0.8,18.7,17.2,Cassavastick,snack
+93,116,3,0.4,28.6,Buah Cempedak,snack
+94,462,1.2,20.7,67.7,Keripik Getuk Singkong,snack
+95,168,13,9.6,7.5,Chicken Teriyaki,"breakfast, lunch, dinner"
+96,311,8,4,48.9,Coklat Susu Bubuk,"dinner, snack"
+97,472,2,29.8,62.7,Coklat Manis Batang,snack
+98,504,5.5,52.9,29.2,Coklat Pahit Batang,snack
+99,381,9,35,53.6,Coklat Susu Batang,snack
+100,210,1.6,6.6,35.8,Combro ,snack
+101,241,16,25,0,Corned Beef,breakfast
+102,96,6.8,5.9,3.8,Coto Mangkasara Kuda,"breakfast, lunch, dinner"
+103,84,6,6,1.4,Coto Mangkasara Sapi,"breakfast, lunch, dinner"
+104,145,27,2.3,0,Ikan Cue Selar Kuning,"breakfast, lunch, dinner"
+105,265,40.6,10.1,0,Cumi Goreng Tepung,"breakfast, lunch, dinner"
+106,75,16.1,0.7,0.1,Cumi-Cumi Goreng,"breakfast, lunch, dinner"
+107,190,19.1,12,0,Daging Anak Sapi,"lunch, dinner"
+108,191,32,6,0,Daging Asap,"lunch, dinner"
+109,457,11.6,45,0,Daging Babi,"lunch, dinner"
+110,376,14.1,35,0,Daging Babi,"lunch, dinner"
+111,206,17.1,14.8,0,Daging Domba,"lunch, dinner"
+112,154,16.6,9.2,0,Daging Kambing,"lunch, dinner"
+113,84,18.7,0.5,0,Daging Kerbau,"lunch, dinner"
+114,118,18.1,4.1,0.9,Daging Kuda,"lunch, dinner"
+115,207,18.8,14,0,Daging Sapi,"breakfast, lunch, dinner"
+116,260,2,15,53,Deblo / Singkong Parut,snack
+117,382,55.7,14.1,8,Dendeng Belut Goreng,"lunch, dinner"
+118,433,55,9,0,Dendeng Daging Sapi,"breakfast, lunch, dinner"
+119,598,74.3,26.9,9.2,Dendeng Ikan Mujair Goreng,"breakfast, lunch, dinner"
+120,395,3,5.7,81.2,Dodol,snack
+121,298,3.7,2.1,65.9,Dodol Bali,snack
+122,368,2.6,8.6,70,Dodol Banjarmasin,snack
+123,373,4.3,16.5,51.9,Dodol Manado,snack
+124,17.5,3.3,2.3,39.5,Dendeng Batokok Sapi,"breakfast, lunch, dinner"
+125,317,15.7,27.7,0,Daging Domba,"lunch, dinner"
+126,202,17.1,14.8,0,Daging Domba,"lunch, dinner"
+127,100,16.6,3.3,1,Ginjal Domba,"lunch, dinner"
+128,63,1,0.2,16.1,Buah Duku,snack
+129,134,2.5,3,28,Buah Durian,snack
+130,80,0.5,0.6,18.2,Duwet / Jamblang,snack
+131,98,1.4,0.2,25.4,Buah Mangga,"snack, breakfast"
+132,248,36.2,6.9,10.1,Empal Daging Goreng,"breakfast, lunch, dinner"
+133,590,18.5,57,0,Empal Goreng,"breakfast, lunch, dinner"
+134,345,12,1.5,71.5,Emping (Kerupuk Melinjo),snack
+135,403,10.6,2.2,85.3,Emping Beras,snack
+136,355,17.8,4.6,60.7,Emping Komak,snack
+137,122,3.5,4.5,17.5,Tumis Terong Asam Manis,"breakfast, lunch, dinner"
+138,524,13.3,29.2,52,Enting-Enting Gepuk,snack
+139,565,18.2,38.4,36.8,Enting-Enting Wijen,snack
+140,210,4,12.5,20.6,Es Krim,"snack, dinner"
+141,156.7,3,1.7,32.7,Es Krim (Coconut Milk) ,"snack, dinner"
+142,152,0,0,37.6,Es Mambo ,"snack, lunch, dinner"
+143,44.8,0,0,11.3,Es Sirup ,"snack, lunch, dinner"
+144,270,12.3,15.9,19.3,Fish Fillet Burger,"breakfast, lunch, dinner"
+145,322,2.4,0.6,76.6,Keripik Gadung,"lunch, dinner"
+146,137,6.1,3.2,21,Gado-Gado,"breakfast, lunch"
+147,88,0.8,0.3,20.9,Gadung Kukus,"breakfast, snack"
+148,88,0.6,0.3,20.9,Gadung Ubi Kukus,"breakfast, snack"
+149,18,0.8,0.2,4.1,Gambas (Oyong),"lunch, dinner"
+150,13,0.3,0.6,1.6,Gambas Lodeh,"lunch, dinner"
+151,68,0.7,0.1,18,Buah Gandaria,snack
+152,100,0.8,0.2,23.8,Ganyong Kukus,"breakfast, snack"
+153,338,1.5,0.7,81.3,Gaplek,snack
+154,191,4.5,1.5,39.7,Buah Gatep,snack
+155,347,1.3,0.7,83.8,Gatot,"breakfast, snack"
+156,195,0.4,1.7,44.4,Geblek,snack
+157,274,1.7,5.4,55.5,Gemblong,snack
+158,407,6.4,28.2,32,Gendar Goreng,snack
+159,350,1.4,14.4,53.6,Geplak,snack
+160,462,3.1,24.4,57.7,Geplak Jahe,snack
+161,75,8.2,2,6,Gete Kuah Asam,"lunch, dinner"
+162,360,1.3,6.4,74.3,Getuk Goreng,snack
+163,171.4,4,4,32,Getuk Lindri ,snack
+164,144,1.1,0.4,34.1,Getuk Pisang,snack
+165,204,0.5,1.4,47.4,Getuk Singkong,snack
+166,114,16.3,4.6,0.8,Ginjal Babi,"lunch, dinner"
+167,105,16.6,3.3,1,Ginjal Domba,"lunch, dinner"
+168,141,15,8.1,0.9,Ginjal Sapi,"lunch, dinner"
+169,53,1.6,1.6,8.8,Gudeg ,"breakfast, lunch, dinner"
+170,160,3.3,9.2,16,Gudeg Sayur,"breakfast, lunch, dinner"
+171,52,10,0.5,1.8,Gulai Asam Keueung,"lunch, dinner"
+172,106,16.5,3.3,2.5,Gulai Ikan ,"lunch, dinner"
+173,148,10,9.8,5,Gulai Ikan Paya ,"lunch, dinner"
+174,126,4.2,9.4,6.2,Gulai Kambing,"lunch, dinner"
+175,110,5.9,8.2,3.2,Gulai Keumamah,"lunch, dinner"
+176,143,4,11.4,6,Gulai Pakis,"lunch, dinner"
+177,176,7.3,14.9,3.2,Gulai Pliek,"lunch, dinner"
+178,132,9,7.2,7.8,Gulai Tiram,"lunch, dinner"
+179,192,12.7,10.1,12.7,Gurame Asem Manis,"breakfast, lunch, dinner"
+180,218,0.5,2.5,48.5,Gurandil,snack
+181,389,16.9,35,0.3,Ham,breakfast
+182,65,10,1,3.5,Hangop / Yogurt,"breakfast, snack"
+183,134,19.7,4.8,1.7,Hati Babi,"lunch, dinner"
+184,136,19.7,3.2,6,Hati Sapi,"lunch, dinner"
+185,390,14.2,7.4,68.2,Oats,breakfast
+186,127,1.2,0.5,29.5,Hofa/Ubi Goreng,"lunch, dinner"
+187,380,33.6,27.5,0,Ikan Asin Bilis Goreng,breakfast
+188,456,46.5,24.4,0,Ikan Asin Gabus Goreng,breakfast
+189,348,18.7,29.5,0,Ikan Asin Japuh Goreng,breakfast
+190,193,42,1.5,0,Ikan Asin Kering,breakfast
+191,430,58.2,23.6,0,Ikan Asin Pari Goreng,breakfast
+192,652,40.4,54.3,0,Ikan Asin Pepetek Goreng,breakfast
+193,319,6.9,31.7,0,Ikan Asin Sirinding Goreng,breakfast
+194,430,33.4,32.4,0,Ikan Asin Teri Goreng,breakfast
+195,198,19,13,0,Ikan Bader,"lunch, dinner"
+196,107,16.5,3.9,1.5,Ikan Balong,"lunch, dinner"
+197,112,20,1.3,3.7,Ikan Bambangan,"lunch, dinner"
+198,129,20,4.8,0,Ikan Bandeng,"lunch, dinner"
+199,296,17.1,20.3,11.3,Ikan Bandeng Presto,"breakfast, lunch, dinner"
+200,111,19.4,0.9,4.8,Ikan Banjar Goreng,"lunch, dinner"
+201,78,14.5,0.6,3.7,Ikan Baronang Goreng,"lunch, dinner"
+202,144,17.8,5.8,5.2,Ikan Baung Bakar,"lunch, dinner"
+203,123,15.1,5.5,3.3,Ikan Baung Goreng,"lunch, dinner"
+204,96,19,1.7,0,Ikan Bawal,"lunch, dinner"
+205,138,14,0.7,7.4,Ikan Bekasang,"lunch, dinner"
+206,128,18,3,7.2,Ikan Belida Bakar,"lunch, dinner"
+207,80,14.7,1.4,2.2,Ikan Belida Goreng,"lunch, dinner"
+208,66,14,0,0,Ikan Beunteur,"lunch, dinner"
+209,90,14.9,2.5,2.1,Ikan Biawan,"lunch, dinner"
+210,88,14.2,0.7,6.2,Ikan Bili Goreng,"lunch, dinner"
+211,100,14.7,2.4,4.9,Ikan Bubara Goreng,"lunch, dinner"
+212,134,25.5,1.3,5,Ikan Bulan-Bulan Goreng,"lunch, dinner"
+213,204,34.2,5.6,1.9,Ikan Cakalang Asap,"breakfast, lunch, dinner"
+214,198,36.5,2.2,5.5,Ikan Cakalang Asin,"breakfast, lunch, dinner"
+215,120,11.3,3.9,10,Ikan Cakalang Hati,"breakfast, lunch, dinner"
+216,116,11.2,1.2,10.2,Ikan Cakalang Jantung,"breakfast, lunch, dinner"
+217,86,10.2,1.1,8.7,Ikan Cakalang Perut,"breakfast, lunch, dinner"
+218,107,19.6,0.7,5.5,Ikan Cakalang Goreng,"breakfast, lunch, dinner"
+219,81,11.4,1.9,3.8,Ikan Calo / Peda,"breakfast, lunch, dinner"
+220,101,11.5,4.1,4.6,Ikan Daun,"breakfast, lunch, dinner"
+221,109,17,4,0,Ikan Ekor Kuning,"breakfast, lunch, dinner"
+222,261,38.1,2.3,21.9,Ikan Gabus Asap,"breakfast, lunch, dinner"
+223,292,58,4,0,Ikan Gabus Kering,"breakfast, lunch, dinner"
+224,74,25.2,1.7,0,Ikan Gabus Goreng,"breakfast, lunch, dinner"
+225,267,23.1,19.4,0.2,Ikan Gete Goreng,"breakfast, lunch, dinner"
+226,101,10.3,3.7,6.7,Ikan Hitam Goreng,"breakfast, lunch, dinner"
+227,298,46.3,3.6,20.2,Ikan Hiu Kering,"breakfast, lunch, dinner"
+228,57,10.7,0.3,2.2,Ikan Hiu Goreng,"breakfast, lunch, dinner"
+229,77,15.6,0.9,1.6,Ikan Kacangan Goreng,"breakfast, lunch, dinner"
+230,92,20,0.7,0,Ikan Kakap Goreng,"breakfast, lunch, dinner"
+231,82,11.4,1.2,6.4,Ikan Kakatua Goreng,"breakfast, lunch, dinner"
+232,132,17,6.7,0.8,Ikan Kapar Goreng,"breakfast, lunch, dinner"
+233,162,31.7,2.8,0.3,Ikan Katombo Asin,"breakfast, lunch, dinner"
+234,110,12.6,4.2,5.4,Ikan Kawalinya Goreng,"breakfast, lunch, dinner"
+235,302,70.7,1.9,0.4,Ikan Kayu Kering,"breakfast, lunch, dinner"
+236,103,22,1,0,Ikan Kembung,"lunch, dinner"
+237,147,17.5,6.5,5.4,Ikan Lais Bakar,"breakfast, lunch, dinner"
+238,109,22,1.7,0,Ikan Layang,"breakfast, lunch, dinner"
+239,82,18,1,0.4,Ikan Layur Goreng,"lunch, dinner"
+240,90,20.4,0.9,0,Ikan Lehoma Goreng,"lunch, dinner"
+241,252,19.9,19.1,0,Ikan Lele Goreng,"breakfast, lunch, dinner"
+242,112,20,3,0,Ikan Lemuru,"lunch, dinner"
+243,104,15.6,3.2,2,Ikan Lidah Goreng,"lunch, dinner"
+244,258,40.3,2.3,18.9,Ikan Lomak Asin ,"lunch, dinner"
+245,99,20.6,1.4,0.9,Ikan Malalugis Goreng,"lunch, dinner"
+246,86,16,2,0,Ikan Mas,"lunch, dinner"
+247,188,19.3,12.2,0,Ikan Mas Goreng,breakfast
+248,209,15.2,11.3,11.8,Ikan Mas Pepes,"lunch, dinner"
+249,97,17.9,2,0.4,Ikan Mayong Goreng,"lunch, dinner"
+250,598,74.3,26.9,9.2,Dendeng Ikan Mujair Goreng,"breakfast, lunch, dinner"
+251,582,68.3,15.2,37.2,Dendeng Ikan Mujair,"lunch, dinner"
+252,416,46.9,23.9,0,Ikan Mujair Goreng,breakfast
+253,121,21.7,2.8,0.8,Ikan Mujair Pepes,"lunch, dinner"
+254,89,18.7,1,0,Ikan Mujair Goreng,"lunch, dinner"
+255,154,16.8,5,10.5,Ikan Nasu Metti Goreng,"lunch, dinner"
+256,125,21.3,3.4,2.2,Ikan Oci Kembung Goreng,"lunch, dinner"
+257,152,17.6,6.1,6.7,Ikan Papuyu Bakar,"lunch, dinner"
+258,120,14.3,4.9,4.6,Ikan Papuyu / Betok Goreng,"lunch, dinner"
+259,144,17.5,6.3,4.3,Ikan Patin Bakar,"lunch, dinner"
+260,132,17,6.6,1.1,Ikan Patin Goreng,"lunch, dinner"
+261,156,28,4,2,Ikan Peda Banjar ,"lunch, dinner"
+262,176,32,4.4,0,Ikan Pepetek,"lunch, dinner"
+263,157,28,4.2,1.8,Ikan Pindang Banjar ,"lunch, dinner"
+264,170,31,4.2,0,Ikan Pindang Benggol ,"lunch, dinner"
+265,153,30,2.8,0,Ikan Pindang Layang ,"lunch, dinner"
+266,142,27,3,0,Ikan Pindang Selar ,"lunch, dinner"
+267,415,61.3,17.6,2.9,Ikan Sale Lais ,breakfast
+268,534,40.2,39.3,4.9,Ikan Sale Goreng,breakfast
+269,284,34.1,9.9,14.6,Ikan Saluang Kering,"lunch, dinner"
+270,113,13.9,4.9,3.4,Ikan Saluang Goreng,"lunch, dinner"
+271,240,21.7,7.7,20.7,Ikan Sanggang,"lunch, dinner"
+272,109,19.9,1.8,3.4,Ikan Sarden Goreng,"lunch, dinner"
+273,113,17,4.5,0,Ikan Goreng,"lunch, dinner"
+274,194,38,3.5,0,Ikan Selar Kering,"lunch, dinner"
+275,138,27,3.3,0,Ikan Selar Kuning Cue,"lunch, dinner"
+276,100,18.8,2.2,0,Ikan Selar Goreng,"lunch, dinner"
+277,289,38,14,0,Ikan Sepat Kering,"lunch, dinner"
+278,84,15.2,0.6,4.7,Ikan Sepat Goreng,"lunch, dinner"
+279,81,11.4,1.9,3.8,Ikan Sidat Goreng,"lunch, dinner"
+280,199,34.1,3.8,7.1,Ikan Sunu Asin,"lunch, dinner"
+281,111,13.3,3.4,6.7,Ikan Sunu Goreng,"lunch, dinner"
+282,88,15.9,0.9,4.1,Ikan Tahuman Goreng,"lunch, dinner"
+283,96,19.5,1.1,2,Ikan Tarmon Goreng,"lunch, dinner"
+284,95,15.8,0.7,6.5,Ikan Telan Goreng,"lunch, dinner"
+285,358,20.7,26.4,9.4,Ikan Telur Asin ,"lunch, dinner"
+286,204,16,15,0,Ikan Tembang,"lunch, dinner"
+287,101,15.1,4.1,1,Ikan Tempahas Goreng,"lunch, dinner"
+288,316,60.1,6.5,22.4,Ikan Tepung ,"lunch, dinner"
+289,98,19.6,1.7,1,Ikan Terbang Goreng,"lunch, dinner"
+290,277,60,2.3,1.8,Ikan Teri Bubuk,"lunch, dinner"
+291,170,33.4,3,0,Ikan Teri Kering,"lunch, dinner"
+292,331,68.7,4.2,0,Ikan Teri Kering Tawar,"lunch, dinner"
+293,144,32.5,0.6,0,Ikan Teri Nasi Kering,"lunch, dinner"
+294,74,10.3,1.4,4.1,Ikan Teri Goreng,"lunch, dinner"
+295,347,48.8,6.4,19.6,Ikan Teri Tepung,breakfast
+296,82,17.4,0.4,2.3,Ikan Titang Goreng,"lunch, dinner"
+297,100,13.7,1.5,8,Ikan Tongkol Goreng,"lunch, dinner"
+298,96,19.2,2,0.2,Ikan Turi Goreng,"lunch, dinner"
+299,474,7.6,21.6,62.3,Intip Goreng,snack
+300,496,30.3,33.5,18.4,Itik Alabio Daging Dendeng,"lunch, dinner"
+301,156,2.7,1.3,33.3,Jagung Grontol,breakfast
+302,154,3.8,3.5,28.4,Jagung Kuning Rebus,breakfast
+303,140,4.7,1.3,33.1,Jagung Kuning Goreng,"lunch, dinner"
+304,35,2.2,0.1,7.4,Jagung Muda,"lunch, dinner"
+305,147,5.1,0.7,31.5,Jagung Muda Kuning ,"lunch, dinner"
+306,142,5,0.7,30.3,Jagung Muda Rebus,"lunch, dinner"
+307,140,4.7,1.3,33.1,Jagung Putih Goreng,"lunch, dinner"
+308,175,1.8,1.8,35,Jagung Rebus ,"breakfast, snack, lunch"
+309,148.9,10.4,10.4,20.1,Jagung Sayur (Tumis) ,"lunch, dinner "
+310,286,48.5,9.2,2.3,Jambal Goreng,"lunch, dinner"
+311,46,0.6,0,11.8,Buah Jambu Air,"snack, breakfast"
+312,49,0.9,0.3,12.2,Buah Jambu Biji,"snack, breakfast"
+313,61,0.9,0.3,15.4,Jambu Biji Putih,"snack, breakfast"
+314,56,0.6,0.3,14.2,Jambu Bol,"snack, breakfast"
+315,64,0.7,0.6,15.8,Buah Jambu Monyet,"snack, breakfast"
+316,45,2.5,3.9,0,Jamur Coklat (Kulat Siau),"lunch, dinner"
+317,296,9.4,1.1,62,Jamur Encik,"lunch, dinner"
+318,294,16,0.9,64.6,Jamur Kuping Kering,"lunch, dinner"
+319,21,3.8,0.6,0.9,Jamur Kuping Goreng,"lunch, dinner"
+320,30,3.5,0.2,4,Jamur Merang Goreng,"lunch, dinner"
+321,48,2.8,4.1,2.9,Jamur Putih (Kulat Putih),"lunch, dinner"
+322,48,1.9,3.2,2.8,Jamur Sagu,"lunch, dinner"
+323,30,1.9,0.1,5.5,Jamur Tiram Goreng,"lunch, dinner"
+324,107,5.3,2.2,16.5,Jangang Bintatoeng ,"lunch, dinner"
+325,500,1.2,25.1,67.3,Jajan Japilus,snack
+326,381.7,9.5,9.5,65.8,Jenang ,snack
+327,192,5.4,0.3,40.7,Jengkol Goreng,"lunch, dinner"
+328,48,0.6,0.2,12.4,Jeruk Bali,"snack, breakfast"
+329,61,0.8,0.2,14.1,Jeruk Banjar,"snack, breakfast"
+330,44,0.8,0.3,10.9,Jeruk Garut,"snack, breakfast"
+331,39,0.3,0.3,8.9,Jeruk Kalamansi,"snack, breakfast"
+332,45,0.9,0.2,11.2,Jeruk Manis,"snack, breakfast"
+333,356,20.5,4.1,61.6,Kacang Andong,snack
+334,330,23.8,1.4,60.2,Kacang Arab,snack
+335,533,27.8,38.1,28.8,Kacang Atom,snack
+336,479,12.7,23.2,58.9,Kacang Bogor,snack
+337,109,8.7,0.5,18.3,Kacang Hijau Rebus,"breakfast, dinner, snack"
+338,445,11,11,65.5,Kacang Kapri Goreng ,snack
+339,98,6.7,0.4,17.7,Kacang Kapri Muda,"lunch, dinner"
+340,286,30.2,15.6,30.1,Kacang Kedelai Goreng,snack
+341,344,16.7,2.1,64.6,Kacang Mentega Kering,snack
+342,158,10.3,0.9,28.2,Kacang Merah Kering Rebus,breakfast
+343,629,20.4,56.3,19.8,Kacang Mete Goreng,snack
+344,480,18.4,19.1,58.5,Kacang Negara,snack
+345,44,2.7,0.3,7.8,Kacang Panjang,"breakfast, lunch, dinner"
+346,39,3,0.6,7.6,Kacang Panjang Kukus,"breakfast, lunch, dinner"
+347,150,2.5,12.5,7,Kacang Panjang Tumis,"breakfast, lunch, dinner"
+348,484,8.8,26.1,57.7,Kacang Sukro,snack
+349,488,25.6,25.6,59.6,Kacang Sukro Putih ,snack
+350,535,27.8,38.1,28.8,Kacang Tanah Atom,snack
+351,564,25.5,44.4,25.5,Kacang Tanah Goreng,snack
+352,561,25.5,43.8,26,Sari Kedelai,"snack, breakfast"
+353,525,27.9,42.7,17.4,Kacang Tanah Kering,snack
+354,385,14,31,13,Kacang Tanah Rebus ,snack
+355,513,17.5,32.5,44.3,Rempeyek Kacang,snack
+356,569,28.8,48.4,15.8,Kacang Tanah Sangan,snack
+357,748,20.8,20.8,124.8,Kacang Telur ,snack
+358,110,4.5,6.9,7.1,Kadada Katembe,lunch
+359,413,28.7,19.8,29.8,Ikan Teri Kaholeo ,"lunch, dinner"
+360,92,20,0.7,0,Kakap,"lunch, dinner"
+361,163,16.5,9,4.1,Kalio Jeroan ,"lunch, dinner"
+362,122,13.8,5.7,3.9,Kalio Kikil (Tunjang) ,"lunch, dinner"
+363,157,8.1,8.8,11.4,Kalio Otak ,"lunch, dinner"
+364,193,10.6,12.4,9.7,Kalio Telur ,"lunch, dinner"
+365,149,16.6,9.2,0,Kambing Daging Goreng,"lunch, dinner"
+366,164,3,2.4,32.6,Kambose,"breakfast, snack"
+367,29,3,0.3,5.4,Sayur Kangkung,"breakfast, lunch, dinner"
+368,30,3.2,0.7,4.7, Sayur Kangkung Kukus,"breakfast, lunch, dinner"
+369,22,2.5,0.6,3.1,Sayur Kangkung Rebus,"breakfast, lunch, dinner"
+370,43,1.8,0.2,8.4,Sayur Kangkung Tondano,"breakfast, lunch, dinner"
+371,52,1.8,3.6,3,Sayur Kangkung Tumis,"breakfast, lunch, dinner"
+372,38,2.4,2,2.6,Sayur Kaparende,"breakfast, lunch, dinner"
+373,158,4.4,3.2,27.8,Kapusa,"lunch, snack"
+374,25,2.3,0.2,3.5,Karawila,"breakfast, lunch, dinner"
+375,146.7,5.9,5.9,19.7,Karedok ,"lunch, dinner"
+376,92,2.2,3.3,14.1,Karedok Sayur,"lunch, dinner"
+377,292,11.2,11.2,2.8,Karoket,snack
+378,464,1.2,18.6,73,Kecimpring Singkong,snack
+379,405,32.8,17,36.5,Kecipir Biji,lunch
+380,326,22.8,20.3,13.1,Keju,"breakfast, snack"
+381,17,0.2,0.1,3.8,Air Kelapa Muda ,"breakfast, snack"
+382,68,1,0.9,14,Daging Kelapa Muda,"breakfast, snack"
+383,214,5.4,5.4,40.2,Kue Kelepon,snack
+384,142,16.9,7.8,0,Daging Kelinci Goreng,"lunch, dinner"
+385,48,1,0.2,11.9,Kemang,snack
+386,380,48.9,13.8,23.3,Kembang Tahu,"lunch, dinner"
+387,83,2,0.1,19.1,Kentang,"breakfast, lunch, dinner"
+388,142,0.9,0.4,33.7,Kentang Hitam,"breakfast, lunch, dinner"
+389,151,13.8,3.8,14.1,Kepiting,"lunch, dinner"
+390,59,18,1.1,3.6,Kerang,"lunch, dinner"
+391,393,38.9,13.3,29.4,Kerang Asap ,"lunch, dinner"
+392,357,41.1,10,25.6,Kerang Dendeng ,"lunch, dinner"
+393,79,18.7,0.5,0,Kerbau Daging Goreng,"lunch, dinner"
+394,475,1.6,25.5,64.4,Ayam Keremes,"breakfast, lunch, dinner"
+395,137,1.3,1.1,29.8,Keribang Ubi Goreng,"lunch, dinner"
+396,586,4.9,40.6,50.2,Keripik Bayam,snack
+397,446,2.8,14.5,76,Keripik Gadung,snack
+398,448,2.7,18.8,67.1,Keripik Kentang,snack
+399,485,1.7,22.2,69.7,Keripik Lampung,snack
+400,598,8.3,43.8,42.6,Keripik Oncom,snack
+401,478,0.9,20.7,72,Keripik Singkong,snack
+402,481,2.2,19.7,73.6,Keripik Singkong Berbumbu,snack
+403,581,12.1,40.6,41.7,Keripik Tempe,snack
+404,529,20.8,31.7,40.2,Keripik Tempe Abadi Telur,snack
+405,486,0.2,23.9,67.6,Keripik Ubi,snack
+406,350,0.5,0.2,85.9,Kerupuk Aci,snack
+407,444,6.9,14.6,71.3,Kerupuk Cumi Goreng,snack
+408,342,16,0.4,65.6,Kerupuk Ikan Berpati,snack
+409,325,1.8,0.4,78.5,Kerupuk Kemplang  (Ikan) ,snack
+410,504,5.6,28.1,57.1,Kerupuk Kemplang Goreng,snack
+411,356,9.7,1.1,76.9,Kerupuk Kemplang Panggang,snack
+412,422,83,4,0,Kerupuk Kulit Kerbau,snack
+413,345,12,1.5,71.5,Kerupuk Melinjo ,snack
+414,431,11.1,16.2,63,Kerupuk Melinjo Tebal Goreng Asin,snack
+415,439,10,16.4,65.7,Kerupuk Melinjo Tebal Goreng Manis,snack
+416,485,11.5,24.5,59.1,Kerupuk Melinjo Tipis Goreng,snack
+417,476,0.1,21.1,71.3,Kerupuk Mie Kuning Goreng,snack
+418,46.7,17.3,17.3,81.3,Kerupuk Sayong ,snack
+419,340,30,30,52,Kerupuk Udang ,snack
+420,359,17.2,68.2,332,Kerupuk Udang Berpati,snack
+421,477,4.7,20.5,68.5,Kerupuk Udang Goreng,snack
+422,588,53.7,40.9,1.2,Kerupuk Urat,snack
+423,78,0.8,0.4,20,Buah Kesemek,snack
+424,181,4,1.2,37.3,Ketan Hitam,"breakfast, snack"
+425,163,3,0.4,35.7,Ketan Putih,"breakfast, snack"
+426,340,11,11,54,Ketapang ,snack
+427,157,0.8,0.3,37.9,Ketela Pohon Kuning,"breakfast, snack"
+428,154,1,0.3,36.8,Ketela Singkong Goreng,"breakfast, snack"
+429,153,1.2,0.3,36.4,Ketela Pohon/Singkong Kukus,"breakfast, snack"
+430,153,7.9,7.7,13,Ketoprak,"lunch, dinner"
+431,212,4,4.6,38.6,Ketupat Ketan,"breakfast, snack"
+432,109.6,2.6,2.6,18.6,Ketupat Tahu ,"lunch, dinner"
+433,73,16.4,0.3,0,Daging Kodok,"lunch, dinner"
+434,86,1.6,0.2,13,Buah Duku,snack
+435,352,17.4,1.3,69,Kopi,"breakfast, snack"
+436,129,12.3,0.5,35,Kopi Bubuk Instant,"breakfast, snack"
+437,38,3,0.3,7.9,Koro Wedus Buah Muda,"lunch, dinner"
+438,542,40.3,42.4,11.5,Kripik Tempe Goreng ,snack
+439,440,3.8,18.5,64.5,Kue Ali,snack
+440,186.7,1.6,1.6,39.6,Kue Apem ,"breakfast, snack"
+441,338,1.5,1.2,80.3,Kue Bangket,snack
+442,240,1,4,54,Kue Bugis ,snack
+443,425,1.6,8.8,84.6,Kue Jahe,snack
+444,591,5.6,42.1,47.5,Kue Kelapa,snack
+445,366,4.2,4.3,7.9,Kue Koya ,snack
+446,291,3.6,11.1,44.1,Kue Lumpur,"breakfast, snack"
+447,182,1,1,40.4,Kue Mangkok ,snack
+448,126.7,0.7,0.7,57.3,Kue Pacar Cina ,snack
+449,296,1.4,1.4,66.4,Kue Pia ,snack
+450,304,5.3,7,54.9,Kue Putu Cangkir,snack
+451,217,1.2,0.5,53.2,Kue Putu Singkong,snack
+452,393.3,2.7,2.7,79.3,Kue Satu ,snack
+453,380,1,1,92,Kue Semprong ,snack
+454,221,7.5,10.2,24.8,Kue Sus,snack
+455,180,5,5,32,Kue Talam ,snack
+456,512,26,26,60.4,Kue Tambang ,snack
+457,247,2.9,4.2,49.5,Kue Thipan,snack
+458,22,0.4,0.2,4.7,Labu Kundur,"lunch, dinner"
+459,515,30.6,42.1,13.8,Kwaci,snack
+460,17,0.6,0.2,3.8,Labu Air,"lunch, dinner"
+461,51,1.7,0.5,10,Labu Kuning,"lunch, dinner"
+462,26,0.6,0.1,6.7,Labu Siam,"lunch, dinner"
+463,32,1.1,0.1,6.6,Labu Waluh,"lunch, dinner"
+464,166.3,2.7,3.9,29.5,Laksa ,"lunch, dinner"
+465,85,5.7,0.3,15.4,Lamtoro (Pete Cina),"lunch, dinner"
+466,142,11,2.5,20.4,Lamtoro Tempe,"lunch, dinner"
+467,56,0.9,0.2,14.3,Buah Langsat,snack
+468,34,2.2,0.3,5.5,Lantar,snack
+469,422,0.9,10.8,80.4,Lanting Getuk,snack
+470,389,6.6,15.7,55.5,Lapis Legit,"snack, breakfast"
+471,405,4.8,5.1,84.9,Ledre Pisang,snack
+472,15,1,0.4,1.9,Lema/ Rebung Asam,"lunch, dinner"
+473,902,0,100,0,Lemak Babi,"lunch, dinner"
+474,630,9.1,65,1.1,Lemak Babi (Bacon),"breakfast, lunch"
+475,372,12,29.4,14.4,Lemak Ikan,"lunch, dinner"
+476,818,1.5,90,0,Lemak Kerbau,"lunch, dinner"
+477,34,0.5,0.8,6.2,Lemon Goreng,snack
+478,36,0,0,10,Lemon Squasih,snack
+479,30,0,0,8,Lemonade,snack
+480,221.3,3.8,3.6,43.4,Lemper ,"breakfast, snack"
+481,320,3.5,5.7,63.7,Lempog Durian,snack
+482,181,2.8,1.2,39.8,Lepok/Ubi Rumput,snack
+483,387,16,22,3,Leverwost (Sosis Hati),"lunch, dinner"
+484,163.3,2.8,2.2,33,Lapis ,"breakfast, snack"
+485,164,1.8,2.1,34.5,Lupis Ketan,"breakfast, snack"
+486,294,0.3,0,79.5,Madu,"breakfast, snack"
+487,363,8.7,0.4,78.7,Makaroni,snack
+488,63,2.4,0.4,12.4,Mangga Benggala,"snack, lunch, dinner"
+489,44,0.7,0.2,11.2,Mangga Gedong,"snack, lunch, dinner"
+490,63,0.5,0.2,16.7,Mangga Golek,"snack, lunch, dinner"
+491,46,0.4,0.2,11.9,Mangga Harum Manis,"snack, lunch, dinner"
+492,72,0.8,0.2,18.7,Mangga Indramayu,"snack, lunch, dinner"
+493,56,0.4,0.2,14.6,Mangga Kopek,"snack, lunch, dinner"
+494,133,1,0.1,32.1,Mangga Manalagi,"snack, lunch, dinner"
+495,59,0.5,0.4,15.1,Mangga Muda,"snack, lunch, dinner"
+496,52,0.7,0,12.3,Mangga Goreng,"snack, lunch, dinner"
+497,63,0.6,0.6,15.6,Buah Manggis,"snack, lunch, dinner"
+498,144,3.5,1.2,29.8,Buah Markisa,snack
+499,217,2.5,1,49.6,Markisa Squash,"snack, lunch, dinner"
+500,265.3,4.7,5.5,49.3,Martabak  Manis,"snack, dinner"
+501,200,8.9,5.1,29.5,Martabak Telur ,"snack, dinner"
+502,369,2.1,7,74.1,Masekat,snack
+503,90,1.2,0.1,21.1,Matoa,snack
+504,66,5,0.7,13.3,Melinjo,snack
+505,37,0.6,0.4,7.8,Buah Melon,snack
+506,322,55.8,2,22.7,Daging Menjangan Dendeng ,"lunch, dinner"
+507,359,11.5,6.8,64.4,Mie Goreng ,"breakfast, lunch, dinner"
+508,88,0.6,3.3,14,Mie Basah,"lunch, dinner"
+509,71,0.2,0.8,15.9,Mie Golosor,"lunch, dinner"
+510,339,10,1.7,6.3,Mie Kering,"lunch, dinner"
+511,113,3,3.2,18.1,Mie Aceh Rebus,"lunch, dinner"
+512,102,6.2,3.9,10.5,Mie Ayam,"lunch, dinner"
+513,114,5.3,3,16.4,Mie Bakso,"lunch, dinner"
+514,86,0.6,3.3,14,Mie Basah,"lunch, dinner"
+515,353,0.3,0,88,Mie Bendo,"lunch, dinner"
+516,102,3,2.1,17.8,Mie Celon,"lunch, dinner"
+517,468,7.6,20.4,62.4,Mie Goreng ,"lunch, dinner"
+518,337,7.9,11.8,50,Mie Kering,"lunch, dinner"
+519,105,5.9,4.9,9.4,Mie Pangsit Basah,"lunch, dinner"
+520,190,0.2,0.4,46.5,Mie Sagu,"lunch, dinner"
+521,345,8.5,2.2,78,Misoa,"lunch, dinner"
+522,218,0.8,16,50.2,Misro ,snack
+523,128,8,10,1.3,Moon Tahu,"breakfast, lunch, dinner"
+524,330,17.8,23.4,12.1,Mujahir Acar Kuning ,"breakfast, lunch, dinner"
+525,52,0.4,0.2,13.7,Buah Nanas,"breakfast, snack"
+526,58,0.7,0.2,13.3,Nanas Palembang,"breakfast, snack"
+527,165,4.2,0.1,36.7,Nangka Biji,snack
+528,106,1.2,0.3,27.6,Buah Nangka,"snack, breakfast"
+529,51,2,0.4,11.3,Nangka Muda,"lunch, dinner"
+530,180,3,0.3,39.8,Nasi,"breakfast, lunch, dinner"
+531,149,2.8,0.4,32.5,Nasi Beras Merah,"breakfast, lunch, dinner"
+532,192,3.8,8.8,24.4,Nasi Gemuk,"breakfast, lunch, dinner"
+533,276,3.2,3.2,30.2,Nasi Goreng ,"breakfast, lunch, dinner"
+534,190,4.7,7.5,26,Nasi Gurih,"breakfast, lunch, dinner"
+535,357,8.8,0.5,79.5,Nasi Jagung,"breakfast, lunch, dinner"
+536,207,3.5,5,37.1,Nasi Minyak,"breakfast, lunch, dinner"
+537,155,10.3,4.2,19.1,Nasi Rames,"breakfast, lunch, dinner"
+538,120,2.4,0.4,26,Nasi Tim,"breakfast, lunch, dinner"
+539,253.3,4.3,21,11.7,Nasi Uduk ,"breakfast, lunch, dinner"
+540,196,14.5,8.3,15.9,Nasu Likku ,"lunch, dinner"
+541,600,14,41.7,42,Noga Kacang Tanah ,snack
+542,9,2.1,6,7.1,Olah-Olah,snack
+543,40,2,2,3,Oncom Merah Sayur (Tumis) ,"lunch, dinner"
+544,76,5.2,1.8,10.6,Oncom Pepes,"lunch, dinner"
+545,288.6,8.3,8.9,44.3,Onde-Onde ,snack
+546,115,1.5,6,14,Ongol-Ongol ,"snack, breakfast"
+547,111,0.3,2.7,21.2,Ongol-Ongol Sagu,"snack, breakfast"
+548,940,36,42,104,Opak Singkong ,snack
+549,460,28.5,35.2,7.2,Paniki Santan ,"lunch, dinner"
+550,133.8,3,1.6,27,Papais ,snack
+551,61,0.2,0.1,14.9,Papeda,"lunch, dinner"
+552,87,10.5,2.5,5.5,Parede Baleh ,"lunch, dinner"
+553,16,0.8,0.2,3.4,Paria Putih Kukus,"snack, lunch"
+554,19,1,0.4,3.6,Paria Putih Goreng,"snack, lunch"
+555,307,4.5,13.3,42.4,Pastel,snack
+556,23,1.8,0.3,4.5,Pe-Cay,"lunch, dinner"
+557,156,28,4,0,Peda Ikan Banjar,"lunch, dinner"
+558,75,2.5,2.8,10,Pelecing Kangkung,"snack, lunch"
+559,219,19.7,13.6,4.4,Pelepah Manuk ,"lunch, dinner"
+560,162,4.9,3,27.8,Pempek Adaan,"snack, lunch, dinner"
+561,156,4.2,1.4,31.6,Pempek Belida,"snack, lunch, dinner"
+562,152,4.5,2.3,28.2,Pempek Kapal Selam,"snack, lunch, dinner"
+563,211,12.3,6.1,26.6,Pempek Kelesan,"snack, lunch, dinner"
+564,243,5.2,7.3,39.1,Pempek Kulit,"snack, lunch, dinner"
+565,173,7.2,1.2,33.4,Pempek Tenggiri,"snack, lunch, dinner"
+566,372,7.8,36.3,3.5,Pencok Lele ,"breakfast, lunch, dinner"
+567,275,11.6,11.6,30.2,Lodeh Pepaya,"lunch, dinner"
+568,400,0,0,95,Permen ,snack
+569,514,1,27.8,647,Pilus ,snack
+570,107,15.9,0.6,0.4,Ikan Pindang ,"breakfast, lunch, dinner"
+571,157,28,4.2,0,Pindang Ikan Banjar,"breakfast, lunch, dinner"
+572,170,31,4.2,0,Pindang Ikan Benggol,"breakfast, lunch, dinner"
+573,153,30,2.8,0,Pindang Ikan Layang,"breakfast, lunch, dinner"
+574,142,27,3,0,Pindang Ikan Selar Kecil,"lunch, dinner"
+575,124,9.5,9.6,0,Pindang Kenari ,"lunch, dinner"
+576,99,1.2,0.2,25.8,Pisang Ambon,"breakfast, snack"
+577,68,1.3,0.2,17.2,Pisang Angleng (Pisang Ampyang) Goreng,"breakfast, snack"
+578,120,1.1,0.2,26.8,Pisang Ayam Goreng,"breakfast, snack"
+579,127,2.1,0.3,31.1,Pisang Gapi Goreng ,"breakfast, snack"
+580,220,2.3,2.3,6.3,Pisang Goreng ,"breakfast, snack"
+581,115,1.9,0.2,27.9,Pisang Goroho Goreng,"breakfast, snack"
+582,117,2,0.3,28.9,Pisang Hijau Goreng,"breakfast, snack"
+583,100,1.4,0.5,23.6,Pisang Kayu Goreng,"breakfast, snack"
+584,109,0.8,0.5,26.3,Pisang Kepok Goreng,"breakfast, snack"
+585,145,1.1,0.3,34.5,Pisang Ketip Goreng,"breakfast, snack"
+586,96,1,0.2,22.5,Pisang Kidang Goreng,"breakfast, snack"
+587,99,1.3,0.2,25.6,Pisang Lampung,"breakfast, snack"
+588,127,1.4,0.2,33.6,Pisang Mas,"breakfast, snack"
+589,127,1.4,0.2,31.8,Pisang Mas Bali,"breakfast, snack"
+590,134,1.1,0.5,35.5,Pisang Oli,"breakfast, snack"
+591,120,1.2,0.2,31.8,Pisang Raja,"breakfast, snack"
+592,118,1.2,0.2,31.1,Pisang Raja Sere (Susu),"breakfast, snack"
+593,98,1.3,1.2,20.5,Pisang Rotan Goreng,"breakfast, snack"
+594,625,1,0,8.1,Pisang Siam Goreng,"breakfast, snack"
+595,113,1.2,0.2,26.7,Pisang Talas Goreng,"breakfast, snack"
+596,216,2.6,3.1,44.4,Pulut / Lemper,"breakfast, snack"
+597,224,26.2,11.3,4.4,Punai Daging Goreng,"breakfast, lunch, dinner"
+598,104,1.9,4.1,15.1,Nasi Pundut,"breakfast, lunch, dinner"
+599,200,1,2.4,43.8,Putu Mayang ,"breakfast, snack"
+600,76,12.1,2,2.4,Rajungan Goreng,"lunch, dinner"
+601,69,0.9,0.1,18.1,Buah Rambutan,"breakfast, snack"
+602,11,0,0,2.7,Buah Rambutan Aceh,"breakfast, snack"
+603,295,7.3,8.5,47.5,Rarawuan ,snack
+604,60,5.4,2.5,4,Rawon ,"lunch, dinner"
+605,451,11.2,20.2,59.7,Rempeyek Kacang Tolo,snack
+606,497,17,27.6,50.8,Rempeyek Kacang Uci,snack
+607,193,22.6,7.9,7.8,Rendang Sapi ,"breakfast, lunch, dinner"
+608,471,4.7,21.8,64.1,Rengginang ,snack
+609,335,5.3,3.5,70.5,Risoles ,"breakfast, snack"
+610,341,5.5,16.2,43.3,Roti Boong,"breakfast, snack"
+611,350,7.5,2,75.5,Roti Gambang ,"breakfast, snack"
+612,248,8,1.2,50,Roti Putih,"breakfast, snack"
+613,249,7.9,1.5,49.7,Roti Gandum,"breakfast, snack"
+614,153,11.3,8.4,8,Rujak Cingur,"lunch, dinner"
+615,536,40.5,41.5,0,Daging Rusa Dendeng ,"lunch, dinner"
+616,110,11.5,2,11.7,Rusip,"lunch, dinner"
+617,338,0.6,0.3,83.1,Sagu Ambon ,"lunch, dinner"
+618,355,0.6,1.1,85.6,Sagu Aren Kering,snack
+619,57,0.5,0.1,13.6,Salak Bali,"breakfast, snack, lunch, dinner"
+620,55,0.4,0.2,12.8,Salak Medan,"breakfast, snack, lunch, dinner"
+621,87,0.8,0.4,20.1,Salak Pondoh,"breakfast, snack, lunch, dinner"
+622,281,2.4,0.7,66.1,Sale Pisang Siam,"breakfast, snack, lunch, dinner"
+623,212,18,10.6,59.3,Abon Sapi ,breakfast
+624,108,17.6,4.2,0,Sapi Babat Goreng,"breakfast, lunch, dinner"
+625,182,32,6,0,Sapi Daging Asap,"lunch, dinner"
+626,301,55,9,0,Sapi Daging Dendeng ,"lunch, dinner"
+627,289,16,25,0,Sapi Daging (Kornet),breakfast
+628,201,18.8,14,0,Daging Sapi (Lemak Sedang),"lunch, dinner"
+629,448,14.5,42.3,2.3,Sapi Daging Sosis (Worst),"breakfast, lunch, dinner"
+630,183,12,14.4,1.4,Jeroan Sapi Goreng,"lunch, dinner"
+631,137,15,8.1,0.9,Ginjal Sapi Goreng,"lunch, dinner"
+632,274,16,22,3,Hati Sapi Sosis,"breakfast, lunch"
+633,132,19.7,3.2,6,Liver Sapi Goreng,"lunch, dinner"
+634,123,10.4,8.6,0.8,Otak Sapi Goreng,"lunch, dinner"
+635,360,57.3,6,19.2,Paru Sapi Dendeng ,"lunch, dinner"
+636,268,23.9,12.7,14.5,Sapi Paru Goreng,"lunch, dinner, snack"
+637,126,14,7.2,1.5,Usus Sapi Goreng,"lunch, dinner"
+638,338,21.1,27,1,Sardines Kaleng,"lunch, dinner"
+639,344,30,20,43,Sari Kedelai,"breakfast, snack"
+640,166,2.3,2.8,32.9,Sarimuka,"breakfast, snack"
+641,283,12.1,16.8,20.9,Sate Bandeng,"lunch, dinner"
+642,110,15.5,0.5,11.5,Sate Kulit ,"lunch, dinner, snack"
+643,179,22.5,3.5,13.3,Sate Penyu ,"lunch, dinner"
+644,274,12.9,18.6,13.6,Sate Pusut ,"lunch, dinner"
+645,126.7,14,7.3,1.3,Sate Usus ,"lunch, dinner, snack"
+646,22,2.3,0.3,4,Sawi,"breakfast, lunch, dinner"
+647,9,1,0.1,1.7,Sawi Putih,"breakfast, lunch, dinner"
+648,92,0.5,1.1,22.4,Buah Sawo,"breakfast, snack, lunch, dinner"
+649,29,0.7,0.6,5,Sayur Asem,"breakfast, lunch, dinner"
+650,49,1.7,0.3,9.8,Sayur Bunga Pepaya,"breakfast, lunch, dinner"
+651,36,2.7,0.7,4.8,Sayur Lilin-Terubuk,"lunch, dinner"
+652,27,1.3,2,1,Sayur Sop,"breakfast, lunch, dinner"
+653,67,5.2,2.9,5.1,Sayur Umbut Kelapa,"breakfast, lunch, dinner"
+654,57,5.4,2.6,3.1,Sayur Umbut Rotan,"lunch, dinner"
+655,15,1.2,0.2,2.9,Selada,"breakfast, lunch, dinner"
+656,28,0.5,0.2,6.9,Buah Semangka,"breakfast, snack"
+657,192.5,4.5,6,30.3,Semur Jengkol ,"lunch, dinner"
+658,478,2.5,21.2,69.2,Serimping Talas,snack
+659,213,0,0,55,Setrup Sirup,"snack, lunch, dinner"
+660,474,11.2,42.5,11.7,Sie Reuboh ,"lunch, dinner"
+661,285,1,18,28,Singkong Goreng ,"breakfast, snack"
+662,146,1.2,0.3,34.7,Singkong Kukus,"breakfast, snack"
+663,173,0.5,0.1,42.5,Singkong Tape,snack
+664,95.3,4.4,2.2,14.4,Siomay ,"breakfast, lunch, dinner, snack"
+665,65,1,0.3,16.3,Buah Sirsak,"breakfast, snack"
+666,213,0,0,55,Sirup,"snack, lunch, dinner"
+667,71,7.5,3.6,2.2,Sop Buntut ,"breakfast, lunch, dinner"
+668,49,5.8,0.5,5.3,Sop Daging Sapi ,"breakfast, lunch, dinner"
+669,68,9,1.9,3.7,Sop Kaki Sapi ,"breakfast, lunch, dinner"
+670,34,5.5,0.8,1.1,Sop Kambing ,"breakfast, lunch, dinner"
+671,71,7.4,2.6,4.5,Sop Konro ,"breakfast, lunch, dinner"
+672,12,0.5,0.1,2,Sop Kool,"breakfast, lunch, dinner"
+673,15,0.6,0.1,3.1,Sop Kool Dan Wortel,"breakfast, lunch, dinner"
+674,89,7.2,5,3.9,Sop Saudara ,"breakfast, lunch, dinner"
+675,42,3.9,1.7,2.8,Soto Bandung ,"breakfast, lunch, dinner"
+676,110,2.9,9.5,3.2,Soto Banjar ,"breakfast, lunch, dinner"
+677,135,2.5,8.8,11.5,Soto Betawi ,"breakfast, lunch, dinner"
+678,127.5,2.6,9.4,8.3,Soto Daging,"breakfast, lunch, dinner"
+679,92,11.8,4.3,1.4,Soto Jeroan ,"breakfast, lunch, dinner"
+680,38,2.6,2.3,1.8,Soto Kudus ,"breakfast, lunch, dinner"
+681,60,3.5,4.5,1.3,Soto Madura ,"breakfast, lunch, dinner"
+682,127,5.9,6.6,11,Soto Padang ,"breakfast, lunch, dinner"
+683,94,3,6.8,5.1,Soto Pekalongan ,"breakfast, lunch, dinner"
+684,75,3.6,5.2,3.5,Soto Pemalang ,"breakfast, lunch, dinner"
+685,80,3.2,3.5,9,Soto Sukaraja ,"breakfast, lunch, dinner"
+686,86,2.3,8.5,0,Soto Sulung ,"breakfast, lunch, dinner"
+687,117.1,0.4,8.6,9.6,Soto Tanpa Daging ,"breakfast, lunch, dinner"
+688,139,7.4,2.1,22.6,Spaghetti,"lunch, dinner"
+689,101,1.7,0.6,35.2,Buah Srikaya,snack
+690,126,1.6,0.2,24.5,Sukun Goreng,snack
+691,64,4.3,2.3,6.6,Susu Kambing,"breakfast, snack, dinner"
+692,41,3.5,2.5,5,Susu Kedelai,"breakfast, snack"
+693,160,6.3,12,7.1,Susu Kerbau,"breakfast, snack"
+694,61,3.2,3.5,4.3,Susu Sapi,"breakfast, snack, dinner"
+695,36,3.5,0.1,5.1,Susu Skim (Tak Berlemak),"breakfast, dinner"
+696,359,35.6,1,52,Susu Skim Bubuk,"breakfast, dinner"
+697,36,3.5,0.1,5.1,Susu Skim ,"breakfast, dinner"
+698,347,0.5,0.9,84.2,Ayam Suwir-Suwir,"breakfast, lunch, dinner"
+699,68,7.8,4.6,1.6,Tahu Putih,"breakfast, lunch, snack"
+700,115,9.7,8.5,2.5,Tahu Goreng,"breakfast, snack"
+701,328,12.6,19.9,24.6,Tahu Telur,"lunch, snack"
+702,148,13.8,8.5,4,Tahu Takwa,"snack, lunch"
+703,120,1.5,0.3,28.2,Talas,snack
+704,104,12.9,6.8,1.2,Taokoa,"snack, dinner"
+705,99,1.7,0.3,22.4,Tapai Beras,snack
+706,166,3.8,1,34.4,Tapai Ketan Hitam,snack
+707,172,3,0.5,37.5,Tapai Ketan Putih,snack
+708,169,1.4,0.3,40.2,Tapai Singkong,snack
+709,132,19.5,0.7,67.8,Teh,"breakfast, snack, dinner"
+710,300,28.3,4.8,53.6,Teh Daun Hijau,"breakfast, snack, dinner"
+711,299,24.1,3.5,59,Teh Daun Melati,"breakfast, snack, dinner"
+712,53,1.9,0.9,9.4,Tekwan,"lunch, dinner"
+713,162,12.8,11.5,0.7,Telur Ayam ,"breakfast, lunch, dinner"
+714,361,19.3,31.9,0.7,Telur Ayam Bagian Kuning,"lunch, dinner"
+715,50,10.8,0,0.8,Telur Ayam Bagian Putih,"lunch, dinner"
+716,383,15.1,32.9,8.3,Telur Ayam Ceplok,"breakfast, lunch, dinner"
+717,251,16.3,19.4,1.4,Telur Ayam Dadar,"breakfast, lunch, dinner"
+718,179,13.6,13.3,4.4,Telur Ayam Kampung ,"breakfast, lunch, dinner"
+719,386,17,35,0.8,Telur Bebek Bagian Kuning,"lunch, dinner"
+720,54,11,0,0.8,Telur Bebek Bagian Putih,"lunch, dinner"
+721,54,11,0,0.8,Telur Bebek Bagian Putih Goreng,"lunch, dinner"
+722,320,15.1,30.5,0.9,Telur Bebek Ceplok,"breakfast, lunch, dinner"
+723,301,20,23.7,0,Telur Bebek Dadar,"breakfast, lunch, dinner"
+724,187,10.9,12.4,7.9,Telur Bebek Tambak Goreng,"breakfast, lunch, dinner"
+725,195,13.6,13.6,1.4,Telur Bebek Asin,"breakfast, lunch, dinner"
+726,116,10.7,7,1.6,Telur Burung Puyuh,"breakfast, lunch, dinner"
+727,144,12,10.2,0,Telur Penyu,"lunch, dinner"
+728,328,18.4,23.2,12.8,Tempe Goreng ,"breakfast, lunch, dinner"
+729,139,12.5,0.8,21.9,Tempe Kacang Babi,"lunch, dinner"
+730,212,17.5,10,12.9,Tempe Kacang Belimbing,"lunch, dinner"
+731,143,12,5.5,11.4,Tempe Kedelai + Jagung,"lunch, dinner"
+732,350,24.5,26.6,10.4,Tempe Kedelai Goreng,"lunch, dinner"
+733,240,6,2.7,49.3,Kuah Sayur Tempe,"breakfast, lunch, dinner"
+734,110,1.7,1.3,21.9,Tempoya,"breakfast, lunch, dinner"
+735,418,19,9,65.5,Susu,"breakfast, snack, dinner"
+736,365,23.7,22.3,17.5,Teri Balado ,"breakfast, lunch, dinner"
+737,462,39.1,32.4,3.5,Teripang Dendeng ,"lunch, dinner"
+738,285,4.3,25.7,9.5,Terong + Oncom Makanan,"breakfast, lunch, dinner"
+739,39,2.3,1.9,2,Terong Asam Pedas,"breakfast, lunch, dinner"
+740,28,1.1,0.2,5.5,Terong Goreng,"breakfast, lunch, dinner"
+741,120,2.4,0.4,26,Tim (Nasi Tim),"breakfast, lunch"
+742,33,1.2,1.3,4.1,Nasi Goreng,"breakfast, dinner"
+743,516,17.7,49.5,0,Tinoransak ,"lunch, dinner"
+744,355,6.2,1.2,79.8,Tipa-Tipa Batak,snack
+745,353,2.4,1.1,83.4,Tiwul Singkong,snack
+746,395,3.2,8.5,76.5,Tiwul Instan,"breakfast, snack"
+747,20,1,0.2,3.5,Tomat Air (Juice),"breakfast, snack"
+748,20,1,0.3,4.2,Oseng Tomat ,"breakfast, lunch, dinner"
+749,189,11.3,15.7,0.6,Tumis Bandeng,"breakfast, lunch, dinner"
+750,48,1.4,4.2,2.6,Tumis Bayam Bersantan,"lunch, dinner"
+751,186,1.9,0.2,44.3,Ubi Cilembu,"breakfast, snack"
+752,160,3.7,1.3,55.3,Ubi Jalar Goreng ,"breakfast, snack"
+753,100,0.7,0.3,23.8,Ubi Jalar Kuning Kukus,"breakfast, snack"
+754,119,0.5,0.4,25.1,Ubi Jalar Kuning,"lunch, dinner"
+755,83,1.5,0.2,18.8,Ubi Jalar Manis,"lunch, dinner"
+756,123,1.8,0.7,27.9,Ubi Jalar Merah,"lunch, dinner"
+757,151,1.6,0.3,35.4,Ubi Jalar Merah,"lunch, dinner"
+758,123,1.8,0.7,27.9,Ubi Jalar Putih,"lunch, dinner"
+759,114,1.4,9.6,25.6,Ubi Jalar Rebus,"breakfast, snack"
+760,184,1.4,0.3,22.5,Ubi Jalar Sayur,"lunch, dinner "
+761,108,0.5,0.4,25.6,Ubi Jalar Tinta,"breakfast, lunch, dinner, snack"
+762,165,0.9,0.2,39.8,"Ubi Ungu, Kemayung","breakfast, snack"
+763,82,5.8,1.3,11.7,Emping Melinjo,"lunch, dinner, snack"
+764,56,11.4,0.6,1.2,Udang Besar Goreng,"breakfast, lunch, dinner"
+765,81,16.5,0.3,3,Udang Galah Goreng,"breakfast, lunch, dinner"
+766,295,62.4,2.3,1.8,Udang Goreng,"breakfast, lunch, dinner"
+767,91,21,0.2,0.1,Udang Goreng,"breakfast, lunch, dinner"
+768,380,11.9,30.3,14.9,Ulat Sagu Panggang,"breakfast, snack"
+769,241,5.8,21.6,5.8,Ulat Sagu Goreng,"breakfast, snack"
+770,120,2.8,0.5,82.3,Ubi Ungu,"breakfast, snack"
+771,130,14,7.2,1.5,Nasi Usus Sapi,"breakfast, lunch, dinner"
+772,101,2,0.2,19.8,Ubi-Ubian,"breakfast, snack"
+773,363,8.7,0.4,78.7,Mie Bihun,"breakfast, snack"
+774,303,6.3,2.7,63.3,Dodol,snack
+775,45,0.8,0.9,8.1,Sayur Labu Air,"breakfast, lunch, dinner"
+776,424,1.3,10.7,80.7,Telur Gabus,snack
+777,568,19.3,51.1,18.1,Onde-Onde,snack 
+778,452,14.5,42.3,2.3,Worst (Sosis Daging),"breakfast, lunch, dinner, snack"
+779,42,1.2,0.6,9.3,Jus Wortel,"breakfast, lunch, dinner"
+780,37,1,0.6,8.3,Omeltte Wortel,"breakfast, lunch, dinner"
+781,28,0.7,0.5,6.3,Tumis Wortel,breakfast
+782,254,3,1.1,58.1,Mochi,snack
+783,52,3.3,2.5,4,Yoghurt,"snack, breakfast"
