@@ -2,7 +2,7 @@ const { spawn } = require('child_process');
 
 function runMLModel(profileData) {
   return new Promise((resolve, reject) => {
-    const python = spawn('python', ['src/ml/model.py']);
+    const python = spawn('python3', ['src/ml/model.py']);
 
     let result = '';
     let error = '';

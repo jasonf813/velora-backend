@@ -2,7 +2,7 @@ const { spawn } = require('child_process');
 
 async function generateOlahragaRecommendation(userId) {
   return new Promise((resolve, reject) => {
-    const py = spawn('python', ['src/ml/model_olahraga.py']);
+    const py = spawn('python3', ['src/ml/model_olahraga.py']);
     let data = '', err = '';
 
     py.stdout.on('data', d => data += d);
