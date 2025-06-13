@@ -1,27 +1,33 @@
-# Gunakan image Node.js sebagai base
-FROM node:18
+# Base image with Node.js and Python
+FROM node:18-slim
 
-# Install Python 3, pip, dan dependensi sistem tambahan
-RUN apt-get update && \
-    apt-get install -y python3 python3-pip python3-dev build-essential && \
-    apt-get clean
+# Install dependencies for Python and system
+RUN apt-get update && apt-get install -y \
+  python3 \
+  python3-pip \
+  python3-venv \
+  build-essential \
+  && rm -rf /var/lib/apt/lists/*
 
-# Pastikan python bisa dipanggil
-RUN ln -sf /usr/bin/python3 /usr/bin/python
+# Buat virtual environment
+RUN python3 -m venv /opt/venv
 
-# Set direktori kerja
+# Aktifkan virtual env & tambahkan ke PATH
+ENV PATH="/opt/venv/bin:$PATH"
+
+# Set workdir
 WORKDIR /app
 
-# Salin dan install dependensi Node.js
+# Copy dependency files
 COPY package*.json ./
-RUN npm install
-
-# Salin dan install dependensi Python
 COPY requirements.txt ./
-RUN pip3 install --no-cache-dir -r requirements.txt
 
-# Salin semua source code
+# Install deps
+RUN npm install
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy semua file project
 COPY . .
 
-# Jalankan aplikasi Node.js
+# Jalankan server
 CMD ["npm", "start"]
